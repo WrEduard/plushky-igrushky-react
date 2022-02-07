@@ -1,0 +1,25 @@
+@media (max-width: 576px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer__logo {
+    display: none;
+  }
+
+  .footer__menu-list {
+    flex-direction: column;
+  }
+}
+
+// Устройства XX-Large (большие настольные компьютеры, 1400 пикселей и выше)
+@media (min-width: 1400px) {
+  .header__menu {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 520px) {
+  .nav-menu {
+    overflow-x: scroll;
+  }
+}

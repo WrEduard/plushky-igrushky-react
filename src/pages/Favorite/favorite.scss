@@ -1,0 +1,101 @@
+@import "../../assets/style/_adaptiv-value";
+@import "../../assets/style/_variables";
+
+.favorite-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-weight: 900;
+    margin-bottom: 1rem;
+    @include adaptiv-value("font-size", 30, 20, 1);
+    color: $mainColor;
+  }
+
+  .favorite {
+    color: black;
+    font-family: "Cormorant Infant", serif;
+    transition: transform 1s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow-y: auto;
+    @include adaptiv-value("padding-top", 10, 5, 0);
+    @include adaptiv-value("padding-left", 15, 5, 0);
+    @include adaptiv-value("padding-bottom", 20, 5, 0);
+    @include adaptiv-value("padding-right", 10, 5, 0);
+
+    @include adaptiv-value("font-size", 20, 20, 1);
+
+    @media (max-width: 576px) {
+      max-width: 90%;
+    }
+
+    // .favorite__products-in-favorite
+    &__products-in-favorite {
+      width: 100%;
+      display: grid;
+      margin: 0 auto;
+      @include adaptiv-value("gap", 15, 8, 1);
+      grid-template-columns: repeat(4, 1fr);
+
+      @media (max-width: 1200px) {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 95%;
+      }
+      @media (max-width: 840px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @media (max-width: 576px) {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    // .favorite__product-item
+    &__product-item {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      margin: 0.3em;
+    }
+
+    // .favorite__img-product
+    &__img-product {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+      img {
+        @include adaptiv-value("margin-right", 10, 2, 0);
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0.5em;
+      }
+      img:hover {
+        cursor: pointer;
+      }
+    }
+
+    // .favorite__count-product
+    &__count-product {
+      input {
+        @include adaptiv-value("font-size", 20, 10, 0);
+        text-align: center;
+        width: 30px;
+        @include adaptiv-value("width", 50, 25, 0);
+        @include adaptiv-value("height", 25, 10, 0);
+      }
+    }
+
+    // .favorite__total
+    &__total {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@import "../../assets/style/_adaptiv-value";
+@import "../../assets/style/_variables";
+
+.main__more-button {
+  margin: 1rem auto;
+  @include adaptiv-value("font-size", 20, 15, 0);
+  font-weight: 900;
+  @include adaptiv-value("padding-top", 10, 5, 0);
+  @include adaptiv-value("padding-right", 15, 5, 0);
+  @include adaptiv-value("padding-bottom", 10, 5, 0);
+  @include adaptiv-value("padding-left", 15, 5, 0);
+  border-radius: 8px;
+  background-color: rgb(250, 215, 215);
+  transition: all ease 0.2s;
+}
+.main__more-button:hover {
+  cursor: pointer;
+  background: rgb(248, 131, 131);
+  color: #660d57;
+}

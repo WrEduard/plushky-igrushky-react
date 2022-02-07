@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+/* ========================================================================================================================== */
+// Розміри екрану і сайту
+/* ========================================================================================================================== */
+// Ширина екрану
+$maxWidthScreen: 1280;
+
+// Ширина обмежуючого контейнера - обгортки
+$maxWidthWrapper: 1200;
+
+/* ========================================================================================================================== */
+// Кольори
+/* ========================================================================================================================== */
+// Основний колір
+$mainColor: rgba(154, 27, 139, 1);
+$mainColorBg: rgba(250, 247, 242, 1);
+
+// Додатковий колір
+$addColor: rgb(153, 3, 3);
+$addColorBg: rgba(255, 241, 241, 0.95);
+$popupColorBg: rgba(255, 203, 203, 0.8);
+
+/* ========================================================================================================================== */
+// Шрифти
+/* ========================================================================================================================== */
+
+// Основний розмір шрифту
+$mainFontsize: 18;
+
+// Додатковий розмір шрифту
+$addFontsize: 14;
+
+// Основний шрифт
+$mainFontFamily: "Caveat", cursive;
+
+// Додатковий шрифт
+$addFontFamily: "Cormorant Infant", serif;
+
+/* ========================================================================================================================== */
+// Брек пойнти (точки останову)
+/* ========================================================================================================================== */
+@media (min-width: 1920px) {
+  .header .cart__icon-img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .header__wrapper {
+    font-size: 2rem !important;
+  }
+
+  .nav-menu__title {
+    font-size: 2rem !important;
+  }
+  .nav-menu__img img {
+    width: 90px !important;
+  }
+  .footer {
+    font-size: 1.8rem !important;
+  }
+  .footer__social img {
+    width: 50px !important;
+  }
+  .footer__for-me {
+    font-size: 2.5rem !important;
+  }
+  .slider-wrapper {
+    .slider {
+      .slick-arrow {
+        width: 40px !important;
+        height: 40px !important;
+      }
+      &__item {
+        height: 600px !important;
+      }
+    }
+  }
+  .product-card__labels {
+    top: 10px !important;
+    right: 10px !important;
+    .label {
+      width: 50px !important;
+      height: 50px !important;
+      font-size: 1rem !important;
+    }
+  }
+}

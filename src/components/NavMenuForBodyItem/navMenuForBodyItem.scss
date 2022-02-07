@@ -1,0 +1,26 @@
+@import "../../assets/style/_adaptiv-value";
+@import "../../assets/style/_variables";
+
+.nav-menu__item {
+  text-align: center;
+  transition: all 0.2s;
+  margin: 0 5px;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}
+
+.nav-menu__img {
+  margin: 0 auto;
+}
+
+.nav-menu__img img {
+  @include adaptiv-value("width", 60, 25, 0);
+}
+
+.nav-menu__title {
+  @include adaptiv-value("font-size", 24, 8, 0);
+  font-weight: 700;
+  color: #9a1b8b;
+}

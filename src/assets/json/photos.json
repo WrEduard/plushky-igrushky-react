@@ -1,0 +1,18 @@
+[
+	{
+		"source": "https://s10.gifyu.com/images/2-1e33b0b1074d68a2a.jpg",
+		"mainImage": true
+	},
+	{
+		"source": "https://s10.gifyu.com/images/2-31795b47c33b03609.jpg",
+		"mainImage": false
+	},
+	{
+		"source": "https://s10.gifyu.com/images/2-4.jpg",
+		"mainImage": false
+	},
+	{
+		"source": "https://s10.gifyu.com/images/2-2716dee0f31ea906d.jpg",
+		"mainImage": false
+	}
+]

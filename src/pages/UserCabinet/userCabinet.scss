@@ -1,0 +1,119 @@
+@import "../../assets/style/_adaptiv-value";
+@import "../../assets/style/_variables";
+
+.wrapper {
+  @include adaptiv-value("padding-top", 30, 10, 0);
+
+  h1 {
+    text-align: center;
+    font-weight: 900;
+    @include adaptiv-value("font-size", 24, 12, 0);
+    @include adaptiv-value("margin-bottom", 24, 12, 0);
+  }
+}
+.body {
+  display: flex;
+  flex-direction: row;
+  @include adaptiv-value("font-size", 18, 8, 0);
+}
+.left-sidebar {
+  flex: 0 0 20%;
+  ul li {
+    @include adaptiv-value("margin-bottom", 10, 5, 0);
+  }
+  ul li a:hover {
+    cursor: pointer;
+  }
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  @include adaptiv-value("padding-left", 10, 5, 0);
+
+  // .menu__my-order
+  &__my-order {
+  }
+
+  // .menu__change-my-profile
+  &__change-my-profile {
+  }
+}
+.content {
+  flex: 0 0 80%;
+
+  // .content__my-order
+  &__my-order {
+  }
+
+  // .content__change-my-profile
+  &__change-my-profile {
+    div {
+      @include adaptiv-value("margin-bottom", 10, 5, 0);
+    }
+    input {
+      @include adaptiv-value("font-size", 15, 10, 0);
+      @include adaptiv-value("width", 200, 100, 0);
+      text-align: center;
+      border: #660d57 solid 1px;
+    }
+    button[type="submit"] {
+      font-family: "Cormorant Infant", serif;
+      @include adaptiv-value("font-size", 20, 10, 0);
+      font-weight: 900;
+      background-color: rgb(250, 185, 185);
+      transition: all ease 0.2s;
+      color: #9a1b8b;
+      border-radius: 20px;
+      margin: 10px auto;
+      @include adaptiv-value("padding-bottom", 5, 4, 0);
+      @include adaptiv-value("padding-top", 5, 4, 0);
+      @include adaptiv-value("padding-right", 40, 20, 0);
+      @include adaptiv-value("padding-left", 40, 20, 0);
+    }
+    button[type="submit"]:hover {
+      cursor: pointer;
+      background: rgb(248, 131, 131);
+      color: #660d57;
+    }
+  }
+}
+.change-my-profile {
+  label {
+    margin-right: 1rem;
+  }
+  // .change-my-profile__name
+  &__name {
+  }
+
+  // .change-my-profile__login
+  &__login {
+  }
+
+  // .change-my-profile__password
+  &__password {
+  }
+
+  // .change-my-profile__password-repeat
+  &__password-repeat {
+  }
+}
+.exit {
+  font-family: "Cormorant Infant", serif;
+  @include adaptiv-value("font-size", 20, 10, 0);
+  font-weight: 900;
+  background-color: rgb(250, 185, 185);
+  transition: all ease 0.2s;
+  color: #9a1b8b;
+  border-radius: 20px;
+  margin: 10px auto;
+  @include adaptiv-value("padding-bottom", 5, 4, 0);
+  @include adaptiv-value("padding-top", 5, 4, 0);
+  @include adaptiv-value("padding-right", 40, 20, 0);
+  @include adaptiv-value("padding-left", 40, 20, 0);
+}
+.exit:hover {
+  cursor: pointer;
+  background: rgb(248, 131, 131);
+  color: #660d57;
+}

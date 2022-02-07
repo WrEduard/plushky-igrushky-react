@@ -1,0 +1,30 @@
+@import "../../assets/style/_adaptiv-value";
+@import "../../assets/style/_variables";
+
+.thank-for-order {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  max-width: 70%;
+  max-height: 90%;
+  background-color: rgba(255, 203, 203, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  color: black;
+  font-family: "Cormorant Infant", serif;
+  transition: transform 1s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  @include adaptiv-value("padding-top", 20, 5, 0);
+  @include adaptiv-value("padding-left", 15, 5, 0);
+  @include adaptiv-value("padding-bottom", 20, 5, 0);
+  @include adaptiv-value("padding-right", 15, 5, 0);
+
+  @include adaptiv-value("font-size", 20, 8, 0);
+  font-weight: 900;
+}

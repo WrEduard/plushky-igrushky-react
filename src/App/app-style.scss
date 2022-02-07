@@ -1,0 +1,61 @@
+@import "../assets/style/_reset";
+@import "../assets/style/_adaptiv-value";
+@import "../assets/style/_variables";
+@import "../assets/style/_media";
+
+html {
+  font-size: 18px;
+  font-family: $addFontFamily;
+}
+body {
+  background-image: url("../assets/image/background/18.png");
+  background-repeat: repeat;
+  padding: 0 15px;
+  color: $mainColor;
+}
+.overflowHidden {
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+  color: $mainColor;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.visible {
+  transition: transform 1s ease;
+  transform: translate(-50%, -50%) !important;
+}
+
+// Стилі для обгортки сайту
+.wrapper {
+  max-width: $maxWidthScreen + px;
+  margin: 0 auto;
+  background-color: $mainColorBg;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  font-family: $addFontFamily;
+}
+
+// Сховати елемент
+.hide {
+  display: none !important;
+}
+
+// Кнопка "Вгору"
+#back-to-start {
+  // width: 4%;
+  @include adaptiv-value("width", 50, 30, 0);
+  @include adaptiv-value("bottom", 50, 10, 0);
+  @include adaptiv-value("right", 50, 10, 0);
+  position: fixed;
+  z-index: 50;
+  img {
+    width: 100%;
+  }
+}

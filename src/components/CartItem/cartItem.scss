@@ -1,0 +1,61 @@
+@import "../../assets/style/_adaptiv-value";
+@import "../../assets/style/_variables";
+
+.cart__product-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 0.5fr;
+  @include adaptiv-value("gap", 5, 1, 0);
+  > div {
+    @include adaptiv-value("padding", 10, 2, 0);
+    background: rgb(255, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.cart__img-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    @include adaptiv-value("margin-right", 10, 2, 0);
+    width: 30%;
+    border-radius: 1em;
+  }
+}
+
+.cart__count-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    margin: 0 0.5em;
+  }
+  .cart__plus-minus-button {
+    border-radius: 50%;
+    max-width: 1em;
+    transition: all 0.1s linear;
+    &:hover {
+      cursor: pointer;
+      background: $addColor;
+    }
+    &:active {
+      background: $addColor;
+    }
+  }
+}
+
+.cart__delete-product {
+  .delete-product-button {
+    min-width: 8px;
+    max-width: 40%;
+    transition: all 0.1s linear;
+    &:hover {
+      transform: scale(1.2);
+      cursor: pointer;
+    }
+  }
+}

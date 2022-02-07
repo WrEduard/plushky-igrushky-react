@@ -1,0 +1,16 @@
+@import "../../assets/style/_adaptiv-value";
+@import "../../assets/style/_variables";
+
+.favorite {
+  position: relative;
+  // .favorite__icon-img
+  &__icon-img {
+    @include adaptiv-value("width", 30, 12, 0);
+    @include adaptiv-value("margin-right", 10, 5, 0);
+  }
+
+  span {
+    top: 0;
+    right: 0;
+  }
+}

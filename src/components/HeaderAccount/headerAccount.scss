@@ -1,0 +1,10 @@
+@import "../../assets/style/_adaptiv-value";
+@import "../../assets/style/_variables";
+
+.account {
+  // .account__icon-img
+  &__icon-img {
+    @include adaptiv-value("width", 30, 12, 0);
+    @include adaptiv-value("margin-right", 10, 5, 0);
+  }
+}

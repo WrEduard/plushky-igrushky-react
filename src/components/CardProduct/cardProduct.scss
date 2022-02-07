@@ -1,0 +1,128 @@
+@import "../../assets/style/_adaptiv-value";
+@import "../../assets/style/_variables";
+
+// Стилі для карток товару
+.product-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: $addColorBg;
+  font-family: $mainFontFamily;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.1s;
+  font-size: 0.7em !important;
+
+  // .product-card__labels
+  &__labels {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    @include adaptiv-value("top", 15, 10, 0);
+    @include adaptiv-value("right", 15, 10, 0);
+
+    // .product-card__labels .label
+    .label {
+      @include adaptiv-value("height", 60, 50, 1);
+      @include adaptiv-value("width", 60, 50, 1);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 2em;
+      &:not(:last-child) {
+        margin: 0 0 10px 0;
+      }
+    }
+  }
+
+  // .product-card__label-new
+  &__label-new {
+    background-color: rgb(140, 209, 127);
+  }
+
+  // .product-card__label-discount
+  &__label-discount {
+    background-color: yellow;
+    color: $addColor !important;
+    font-size: 2.5em !important;
+  }
+
+  // .product-card__favorite
+  .product-card__favorite {
+    position: absolute;
+    z-index: 200;
+    width: 10%;
+    top: 10px;
+    left: 10px;
+    transition: all 0.5s ease;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      transition: all 0.5s ease;
+      opacity: 0.7;
+    }
+    img:hover {
+      opacity: 0.5;
+    }
+  }
+
+  // .product-card__img
+  &__img {
+    width: 100%;
+    position: relative;
+  }
+
+  &__img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  &__img img:hover {
+    cursor: pointer;
+  }
+  //.product-card__footer
+  &__footer {
+    @include adaptiv-value("padding", 10, 5, 1);
+  }
+  // .product-card__title
+  &__title {
+    @include adaptiv-value("font-size", 28, 17, 1);
+    font-weight: 900;
+    text-align: center;
+  }
+
+  // .product-card__subtitle
+  &__subtitle {
+    @include adaptiv-value("font-size", 24, 14, 1);
+    @include adaptiv-value("margin-top", 10, 7, 1);
+    @include adaptiv-value("margin-bottom", 10, 7, 1);
+  }
+
+  // .product-card__price
+  &__price {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  // .product-card__price-without-discount
+  &__price-without-discount {
+    text-decoration: line-through;
+  }
+}
+.product-card:hover {
+  transform: scale(1.04);
+}
+
+.flyImage {
+  opacity: 1;
+  position: fixed;
+  z-index: 100;
+  transition: all 2s ease 0s;
+}

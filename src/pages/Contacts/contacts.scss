@@ -1,0 +1,33 @@
+@import "../../assets/style/_adaptiv-value";
+@import "../../assets/style/_variables";
+
+// Стилі для розділу "Контакти"
+.contacts-wrapper {
+  .contacts {
+    color: black;
+    font-family: "Cormorant Garamond", serif;
+    transition: transform 1s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    @include adaptiv-value("padding-top", 40, 10, 0);
+    @include adaptiv-value("padding-left", 20, 5, 0);
+    @include adaptiv-value("padding-bottom", 40, 10, 0);
+    @include adaptiv-value("padding-right", 20, 5, 0);
+
+    @include adaptiv-value("font-size", 30, 12, 0);
+
+    div {
+      @include adaptiv-value("margin-bottom", 20, 8, 0);
+    }
+    img {
+      @include adaptiv-value("width", 40, 20, 0);
+    }
+    a {
+      margin-left: 15px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@import "../../assets/style/_adaptiv-value";
+@import "../../assets/style/_variables";
+
+// .header__menu-list
+.header__menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// .header__menu-item
+.header__menu-item {
+  @include adaptiv-value("margin-left", 18, 10, 0);
+  @include adaptiv-value("padding-top", 8, 4, 0);
+  @include adaptiv-value("padding-bottom", 8, 4, 0);
+  @include adaptiv-value("padding-left", 12, 6, 0);
+  @include adaptiv-value("padding-right", 12, 6, 0);
+  transition: all 0.4s ease;
+
+  &:hover {
+    background: rgba(252, 211, 211, 0.8);
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+}

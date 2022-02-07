@@ -1,0 +1,26 @@
+@import "../../assets/style/_adaptiv-value";
+@import "../../assets/style/_variables";
+
+.product-card__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $addFontFamily;
+  font-size: 1.5rem;
+  font-weight: 900;
+  width: 80%;
+  margin: 0.8rem auto !important;
+  background-color: rgb(250, 215, 215);
+  transition: all ease 0.2s;
+  color: $mainColor;
+  border-radius: 20px;
+
+  &:hover {
+    cursor: pointer;
+    background: rgb(248, 131, 131);
+    color: #660d57;
+  }
+  span {
+    color: $addColor;
+  }
+}

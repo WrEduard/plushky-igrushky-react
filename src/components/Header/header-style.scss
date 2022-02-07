@@ -1,0 +1,49 @@
+@import "../../assets/style/_adaptiv-value";
+@import "../../assets/style/_variables";
+// Стилі для шапки сайту
+.header {
+  // .header__wrapper
+  &__wrapper {
+    @include adaptiv-value("padding-top", 10, 5, 0);
+    @include adaptiv-value("padding-right", 15, 5, 0);
+    @include adaptiv-value("padding-bottom", 10, 5, 0);
+    @include adaptiv-value("padding-left", 15, 5, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include adaptiv-value("font-size", 34, 8, 0);
+  }
+
+  // .header__menu
+  &__menu {
+    flex: 0 0 930 / $maxWidthScreen * 100%;
+    font-weight: 700;
+  }
+
+  // .header__user
+  &__user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    span {
+      position: absolute;
+      @include adaptiv-value("width", 20, 8, 0);
+      @include adaptiv-value("height", 20, 8, 0);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @include adaptiv-value("top", 0, 0, 0);
+      @include adaptiv-value("right", -9, -3, 0);
+      border-radius: 50%;
+      background-color: #eb8500;
+      color: #ffffff;
+      @include adaptiv-value("font-size", 12, 6, 0);
+    }
+  }
+
+  // .header__cart
+  &__cart {
+    position: relative;
+  }
+}

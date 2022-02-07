@@ -1,0 +1,24 @@
+@import "../../assets/style/_adaptiv-value";
+@import "../../assets/style/_variables";
+
+// Стилі для розділу "Про мене"
+.delivery-wrapper {
+}
+.delivery {
+  font-family: "Cormorant Garamond", serif;
+  transition: transform 1s ease;
+  color: black;
+
+  @include adaptiv-value("padding-top", 20, 5, 0);
+  @include adaptiv-value("padding-left", 20, 5, 0);
+  @include adaptiv-value("padding-bottom", 20, 5, 0);
+  @include adaptiv-value("padding-right", 20, 5, 0);
+
+  @include adaptiv-value("font-size", 16, 10, 0);
+
+  @include adaptiv-value("text-indent", 20, 12, 0);
+
+  p {
+    margin-bottom: 10px;
+  }
+}

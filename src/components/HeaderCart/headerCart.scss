@@ -1,0 +1,9 @@
+@import "../../assets/style/_adaptiv-value";
+@import "../../assets/style/_variables";
+
+.cart {
+  // .cart__icon-img
+  &__icon-img {
+    @include adaptiv-value("width", 30, 12, 0);
+  }
+}

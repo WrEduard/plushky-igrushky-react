@@ -1,0 +1,77 @@
+@import "../../assets/style/_adaptiv-value";
+@import "../../assets/style/_variables";
+
+// Стилі для підвалу
+.footer {
+  @include adaptiv-value("margin-top", 20, 15, 0);
+  @include adaptiv-value("padding-top", 10, 5, 0);
+  @include adaptiv-value("padding-right", 15, 5, 0);
+  @include adaptiv-value("padding-bottom", 30, 5, 0);
+  @include adaptiv-value("padding-left", 15, 5, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include adaptiv-value("font-size", 20, 8, 0);
+  font-weight: 900;
+  background: rgb(250, 220, 220);
+
+  // .footer__logo
+  &__logo {
+    flex: 0 0 15%;
+    overflow: hidden;
+  }
+
+  // .footer__logo-img
+  &__logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  // .footer__menu
+  &__menu {
+    flex: 0 0 86%;
+  }
+
+  // .footer__menu-list
+  &__menu-list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  // .footer__menu-list-item
+  &__menu-list-item {
+    flex: 0 0 33%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  &__for-me {
+    @include adaptiv-value("font-size", 30, 10, 0);
+    align-self: center;
+  }
+  // .footer__social img
+  &__social img {
+    @include adaptiv-value("width", 30, 15, 0);
+    margin-right: 0.5rem;
+    @include adaptiv-value("margin-right", 9, 4, 0);
+  }
+
+  &__social span,
+  &__contacts span {
+    display: block;
+    @include adaptiv-value("margin-bottom", 9, 4, 0);
+    @include adaptiv-value("margin-top", 9, 4, 0);
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  &__contacts img {
+    @include adaptiv-value("width", 40, 10, 0);
+  }
+}

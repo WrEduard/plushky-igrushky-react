@@ -1,0 +1,420 @@
+{
+	"imgMainSlider": {
+		"1": "https://s10.gifyu.com/images/30b6acf0f6265642b.jpg",
+		"2": "https://s10.gifyu.com/images/18b3eb190fff8d7d6.jpg",
+		"3": "https://s10.gifyu.com/images/2ccfa5db5a18c239d.jpg"
+	},
+	"toys": [
+		{
+			"id": 1,
+			"title": "Ведмедик Топік",
+			"price": {
+				"initialPrice": 500,
+				"discount": 38,
+				"priceWithDiscount": 300
+			},
+			"description": "Малюк",
+			"quantity": 3,
+			"labels": [
+				"SALE",
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-07-11.jpg",
+				"mainImage": true
+			},
+			"height": 19.5,
+			"type": "BEAR"
+		},
+		{
+			"id": 2,
+			"title": "Ведмедик Топік",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Малюк",
+			"quantity": 3,
+			"labels": [
+				"NEW",
+				"SALE"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-54.jpg",
+				"mainImage": true
+			},
+			"images": [
+				"https://s8.gifyu.com/images/photo_2021-12-01_13-07-11.jpg",
+				"https://s8.gifyu.com/images/photo_2021-12-01_13-07-11.jpg",
+				"https://s8.gifyu.com/images/photo_2021-12-01_13-07-11.jpg",
+				"https://s8.gifyu.com/images/photo_2021-12-01_13-07-11.jpg",
+				"https://s8.gifyu.com/images/photo_2021-12-01_13-07-11.jpg"
+			],
+			"height": 19.5,
+			"type": "BEAR"
+		},
+		{
+			"id": 3,
+			"title": "Єдиноріжка Луна",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Дуже класні хвостики",
+			"quantity": 3,
+			"labels": [
+				"SALE"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-58.jpg",
+				"mainImage": true
+			},
+			"height": 20,
+			"type": "UNICORN"
+		},
+		{
+			"id": 4,
+			"title": "Зайка Персик",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Дуже ніжні вушка",
+			"quantity": 3,
+			"labels": [
+				"SALE",
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-40.jpg",
+				"mainImage": true
+			},
+			"height": 19.5,
+			"type": "RABBIT"
+		},
+		{
+			"id": 5,
+			"title": "Ведмедик Пухляш",
+			"price": {
+				"initialPrice": 500.0
+			},
+			"description": "Класний",
+			"quantity": 3,
+			"labels": [
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-54.jpg",
+				"mainImage": true
+			},
+			"height": 19.5,
+			"type": "BEAR"
+		},
+		{
+			"id": 6,
+			"title": "Ведмедик Топік",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Малюк",
+			"quantity": 3,
+			"labels": [
+				"SALE",
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-07-11.jpg",
+				"mainImage": true
+			},
+			"height": 19.5,
+			"type": "BEAR"
+		},
+		{
+			"id": 7,
+			"title": "Ведмедик Топік",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Малюк",
+			"quantity": 3,
+			"labels": [
+				"NEW",
+				"SALE"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-54.jpg",
+				"mainImage": true
+			},
+			"height": 19.5,
+			"type": "BEAR"
+		},
+		{
+			"id": 8,
+			"title": "Єдиноріжка Луна",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Дуже класні хвостики",
+			"quantity": 3,
+			"labels": [
+				"SALE"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-58.jpg",
+				"mainImage": true
+			},
+			"height": 20,
+			"type": "UNICORN"
+		},
+		{
+			"id": 9,
+			"title": "Зайка Персик",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Дуже ніжні вушка",
+			"quantity": 3,
+			"labels": [
+				"SALE",
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-40.jpg",
+				"mainImage": true
+			},
+			"height": 19.5,
+			"type": "RABBIT"
+		},
+		{
+			"id": 10,
+			"title": "Ведмедик Пухляш",
+			"price": {
+				"initialPrice": 500.0
+			},
+			"description": "Класний",
+			"quantity": 3,
+			"labels": [
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-54.jpg",
+				"mainImage": true
+			},
+			"height": 19.5,
+			"type": "BEAR"
+		},
+		{
+			"id": 11,
+			"title": "Ведмедик Топік",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Малюк",
+			"quantity": 3,
+			"labels": [
+				"SALE",
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-07-11.jpg",
+				"mainImage": true
+			},
+			"height": 19.5,
+			"type": "BEAR"
+		},
+		{
+			"id": 12,
+			"title": "Ведмедик Топік",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Малюк",
+			"quantity": 3,
+			"labels": [
+				"NEW",
+				"SALE"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-54.jpg",
+				"mainImage": true
+			},
+			"height": 19.5,
+			"type": "BEAR"
+		},
+		{
+			"id": 13,
+			"title": "Єдиноріжка Луна",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Дуже класні хвостики",
+			"quantity": 3,
+			"labels": [
+				"SALE"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-58.jpg",
+				"mainImage": true
+			},
+			"height": 20,
+			"type": "UNICORN"
+		},
+		{
+			"id": 14,
+			"title": "Зайка Персик",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Дуже ніжні вушка",
+			"quantity": 3,
+			"labels": [
+				"SALE",
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-40.jpg",
+				"mainImage": true
+			},
+			"height": 19.5,
+			"type": "RABBIT"
+		},
+		{
+			"id": 15,
+			"title": "Ведмедик Пухляш",
+			"price": {
+				"initialPrice": 500.0
+			},
+			"description": "Класний",
+			"quantity": 3,
+			"labels": [
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-54.jpg",
+				"mainImage": true
+			},
+			"height": 19.5,
+			"type": "BEAR"
+		},
+		{
+			"id": 16,
+			"title": "Ведмедик Топік",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Малюк",
+			"quantity": 3,
+			"labels": [
+				"SALE",
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-07-11.jpg",
+				"mainImage": true
+			},
+			"height": 19.5,
+			"type": "BEAR"
+		},
+		{
+			"id": 17,
+			"title": "Ведмедик Топік",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Малюк",
+			"quantity": 3,
+			"labels": [
+				"NEW",
+				"SALE"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-54.jpg",
+				"mainImage": true
+			},
+			"height": 19.5,
+			"type": "BEAR"
+		},
+		{
+			"id": 18,
+			"title": "Єдиноріжка Луна",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Дуже класні хвостики",
+			"quantity": 3,
+			"labels": [
+				"SALE"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-58.jpg",
+				"mainImage": true
+			},
+			"height": 20,
+			"type": "UNICORN"
+		},
+		{
+			"id": 19,
+			"title": "Зайка Персик",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Дуже ніжні вушка",
+			"quantity": 3,
+			"labels": [
+				"SALE",
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-40.jpg",
+				"mainImage": true
+			},
+			"height": 19.5,
+			"type": "RABBIT"
+		},
+		{
+			"id": 20,
+			"title": "Ведмедик Пухляш",
+			"price": {
+				"initialPrice": 500.0
+			},
+			"description": "Класний",
+			"quantity": 3,
+			"labels": [
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-54.jpg",
+				"mainImage": true
+			},
+			"height": 19.5,
+			"type": "BEAR"
+		}
+	]
+}
