@@ -2,7 +2,13 @@ import React from "react";
 import "./moreButton.scss";
 
 function MoreButton() {
-  return <a className="main__more-button">Показати більше</a>;
+  const onClickButton = () => {};
+
+  return (
+    <button className="main__more-button" onClick={onClickButton}>
+      Показати більше
+    </button>
+  );
 }
 
 export default MoreButton;

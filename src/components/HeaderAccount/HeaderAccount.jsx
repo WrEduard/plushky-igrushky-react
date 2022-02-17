@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 function HeaderAccount() {
   return (
     <div className="header__account account">
-      <NavLink to="/admin">
+      <NavLink to="/login">
         <img src={accountIcon} className="account__icon-img" alt="avatar"></img>
       </NavLink>
     </div>

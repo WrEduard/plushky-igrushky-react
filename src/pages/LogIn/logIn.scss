@@ -2,11 +2,6 @@
 @import "../../assets/style/_variables";
 
 .account-wrapper {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,16 +24,6 @@
     text-align: center;
     @include adaptiv-value("padding", 20, 8, 0);
     @include adaptiv-value("font-size", 20, 12, 0);
-
-    .close {
-      @include adaptiv-value("top", 10, 5, 0);
-      @include adaptiv-value("right", 10, 5, 0);
-
-      img {
-        @include adaptiv-value("width", 15, 8, 0);
-        @include adaptiv-value("height", 15, 8, 0);
-      }
-    }
 
     input {
       @include adaptiv-value("font-size", 20, 10, 0);

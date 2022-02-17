@@ -5,5 +5,10 @@
   // .cart__icon-img
   &__icon-img {
     @include adaptiv-value("width", 30, 12, 0);
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.15);
+    }
   }
 }

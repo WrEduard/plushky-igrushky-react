@@ -50,12 +50,22 @@
   &__for-me {
     @include adaptiv-value("font-size", 30, 10, 0);
     align-self: center;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.15);
+    }
   }
   // .footer__social img
   &__social img {
     @include adaptiv-value("width", 30, 15, 0);
     margin-right: 0.5rem;
     @include adaptiv-value("margin-right", 9, 4, 0);
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.15);
+    }
   }
 
   &__social span,
@@ -73,5 +83,13 @@
 
   &__contacts img {
     @include adaptiv-value("width", 40, 10, 0);
+  }
+
+  &__contacts li a {
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.15);
+    }
   }
 }

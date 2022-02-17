@@ -7,10 +7,10 @@
 .delivery {
   font-family: "Cormorant Garamond", serif;
   transition: transform 1s ease;
-  color: black;
+  color: $mainColor;
 
   @include adaptiv-value("padding-top", 20, 5, 0);
-  @include adaptiv-value("padding-left", 20, 5, 0);
+  @include adaptiv-value("padding-left", 30, 15, 0);
   @include adaptiv-value("padding-bottom", 20, 5, 0);
   @include adaptiv-value("padding-right", 20, 5, 0);
 
@@ -18,7 +18,20 @@
 
   @include adaptiv-value("text-indent", 20, 12, 0);
 
-  p {
-    margin-bottom: 10px;
+  h2 {
+    @include adaptiv-value("margin-bottom", 15, 10, 1);
+    @include adaptiv-value("margin-top", 30, 20, 1);
+    @include adaptiv-value("font-size", 28, 20, 1);
+    font-weight: 900;
+  }
+
+  ul {
+    list-style: decimal;
+    @include adaptiv-value("margin-left", 15, 10, 1);
+  }
+
+  li {
+    @include adaptiv-value("margin-bottom", 10, 8, 1);
+    @include adaptiv-value("font-size", 20, 14, 1);
   }
 }

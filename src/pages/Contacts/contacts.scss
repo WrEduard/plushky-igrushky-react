@@ -28,6 +28,11 @@
     }
     a {
       margin-left: 15px;
+      transition: all 0.3s;
+
+      &:hover {
+        transform: scale(1.05);
+      }
     }
   }
 }

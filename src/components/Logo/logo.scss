@@ -5,6 +5,11 @@
 .logo {
   width: 150 / $maxWidthScreen * 100%;
   overflow: hidden;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.15);
+  }
 
   // .logo__img
   &__img {

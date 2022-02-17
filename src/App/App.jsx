@@ -12,6 +12,7 @@ import {
   ThankForOrder,
   Delivery,
   Product,
+  LogIn,
 } from "../pages";
 
 import "./app-style.scss";
@@ -30,6 +31,7 @@ function App() {
         <Route path="/favorite" element={<Favorite />}></Route>
         <Route path="/thanks" element={<ThankForOrder />}></Route>
         <Route path="/admin" element={<AdminPages />}></Route>
+        <Route path="/login" element={<LogIn />}></Route>
       </Routes>
       <Footer />
     </div>
