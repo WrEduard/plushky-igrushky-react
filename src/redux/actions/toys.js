@@ -5,7 +5,8 @@ export const setLoaded = value => ({
 
 export const fetchToys = (category) => (dispatch) => {
 	dispatch(setLoaded(false));
-	const url = `/toys/${category === 'ALL' || category === null ? '?_limit=5' : '?type=' + category + '&_limit=5'}`;
+	// const url = `/toys/${category === 'ALL' || category === null ? '?_limit=10' : '?type=' + category + '&_limit=5'}`;
+	const url = `/toys/${category === 'ALL' || category === null ? '' : '?type=' + category}`;
 
 	fetch(url).then((response) =>
 		response.json().then((result) => dispatch(setToys(result)))

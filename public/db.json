@@ -409,6 +409,411 @@
 			],
 			"height": 19.5,
 			"type": "BEAR"
+		},
+		{
+			"id": 17,
+			"title": "Єдиноріжка Луна",
+			"price": {
+				"initialPrice": 650,
+				"discount": 30,
+				"priceWithDiscount": 455
+			},
+			"description": "Дуууже класна гривка",
+			"quantity": 4,
+			"labels": [
+				"SALE"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-58.jpg",
+				"mainImage": true
+			},
+			"images": [
+				"https://s10.gifyu.com/images/1644134058701-01_result.jpg",
+				"https://s10.gifyu.com/images/1638949328488-01_result.jpg",
+				"https://s10.gifyu.com/images/1636881546383-01_result.jpg",
+				"https://s8.gifyu.com/images/photo_2021-12-01_13-07-05.jpg",
+				"https://s8.gifyu.com/images/photo_2021-12-01_13-06-58.jpg",
+				"https://s10.gifyu.com/images/2-1e33b0b1074d68a2a.jpg",
+				"https://s10.gifyu.com/images/2-31795b47c33b03609.jpg",
+				"https://s10.gifyu.com/images/2-4.jpg",
+				"https://s10.gifyu.com/images/2-2716dee0f31ea906d.jpg"
+			],
+			"height": 19.5,
+			"type": "UNICORN"
+		},
+		{
+			"id": 18,
+			"title": "Великий заєць",
+			"price": {
+				"initialPrice": 800
+			},
+			"description": "Великий зайка",
+			"quantity": 1,
+			"labels": [
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s10.gifyu.com/images/1643307345907-01_result.jpg",
+				"mainImage": true
+			},
+			"images": [
+				"https://s10.gifyu.com/images/1643307345907-01_result.jpg",
+				"https://s10.gifyu.com/images/1640675576572-01_result.jpg",
+				"https://s10.gifyu.com/images/1636012811854-01_result.jpg"
+			],
+			"height": 32,
+			"type": "RABBIT"
+		},
+		{
+			"id": 19,
+			"title": "Ведмедик Бурмилко",
+			"price": {
+				"initialPrice": 600,
+				"discount": 30,
+				"priceWithDiscount": 450
+			},
+			"description": "Дуже милий мішка",
+			"quantity": 3,
+			"labels": [
+				"SALE"
+			],
+			"mainImage": {
+				"source": "https://s10.gifyu.com/images/1640703207095-01_result.jpg",
+				"mainImage": true
+			},
+			"images": [
+				"https://s10.gifyu.com/images/1644824407042-01_result.jpg",
+				"https://s10.gifyu.com/images/1640703207095-01_result.jpg",
+				"https://s10.gifyu.com/images/1638864781682-01_result.jpg",
+				"https://s10.gifyu.com/images/1636713125144-01_result.jpg",
+				"https://s10.gifyu.com/images/1632734295291-01-01_result.jpg",
+				"https://s10.gifyu.com/images/1632734409096-01_result.jpg",
+				"https://s10.gifyu.com/images/1633068350516-01_result.jpg"
+			],
+			"height": 20,
+			"type": "BEAR"
+		},
+		{
+			"id": 20,
+			"title": "Зайка Персик",
+			"price": {
+				"initialPrice": 500.0
+			},
+			"description": "Дуже ніжні вушка",
+			"quantity": 3,
+			"labels": [],
+			"mainImage": {
+				"source": "https://s10.gifyu.com/images/1637603619647-01_result.jpg",
+				"mainImage": true
+			},
+			"images": [
+				"https://s10.gifyu.com/images/1644341430361-01_result.jpg",
+				"https://s10.gifyu.com/images/1643469106497-01_result.jpg",
+				"https://s10.gifyu.com/images/1640257619214-01_result.jpg",
+				"https://s10.gifyu.com/images/1638344265470-01_result.jpg",
+				"https://s10.gifyu.com/images/1637651168568-01_result.jpg",
+				"https://s10.gifyu.com/images/1637603619647-01_result.jpg",
+				"https://s10.gifyu.com/images/1636620904276-01_result.jpg",
+				"https://s8.gifyu.com/images/photo_2021-12-01_13-06-40.jpg"
+			],
+			"height": 19.5,
+			"type": "RABBIT"
+		},
+		{
+			"id": 21,
+			"title": "Ведмедик Пухляш",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Полярний мішка",
+			"quantity": 3,
+			"labels": [
+				"SALE",
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s10.gifyu.com/images/1643711136334-01_result.jpg",
+				"mainImage": true
+			},
+			"images": [
+				"https://s10.gifyu.com/images/1643711136334-01_result.jpg",
+				"https://s10.gifyu.com/images/1639987442610-01_result.jpg",
+				"https://s10.gifyu.com/images/1639304863739-01_result.jpg"
+			],
+			"height": 19.5,
+			"type": "BEAR"
+		},
+		{
+			"id": 22,
+			"title": "Єдиноріжка Луна",
+			"price": {
+				"initialPrice": 650,
+				"discount": 30,
+				"priceWithDiscount": 455
+			},
+			"description": "Дуууже класна гривка",
+			"quantity": 4,
+			"labels": [
+				"SALE"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-58.jpg",
+				"mainImage": true
+			},
+			"images": [
+				"https://s10.gifyu.com/images/1644134058701-01_result.jpg",
+				"https://s10.gifyu.com/images/1638949328488-01_result.jpg",
+				"https://s10.gifyu.com/images/1636881546383-01_result.jpg",
+				"https://s8.gifyu.com/images/photo_2021-12-01_13-07-05.jpg",
+				"https://s8.gifyu.com/images/photo_2021-12-01_13-06-58.jpg",
+				"https://s10.gifyu.com/images/2-1e33b0b1074d68a2a.jpg",
+				"https://s10.gifyu.com/images/2-31795b47c33b03609.jpg",
+				"https://s10.gifyu.com/images/2-4.jpg",
+				"https://s10.gifyu.com/images/2-2716dee0f31ea906d.jpg"
+			],
+			"height": 19.5,
+			"type": "UNICORN"
+		},
+		{
+			"id": 23,
+			"title": "Великий заєць",
+			"price": {
+				"initialPrice": 800
+			},
+			"description": "Великий зайка",
+			"quantity": 1,
+			"labels": [
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s10.gifyu.com/images/1643307345907-01_result.jpg",
+				"mainImage": true
+			},
+			"images": [
+				"https://s10.gifyu.com/images/1643307345907-01_result.jpg",
+				"https://s10.gifyu.com/images/1640675576572-01_result.jpg",
+				"https://s10.gifyu.com/images/1636012811854-01_result.jpg"
+			],
+			"height": 32,
+			"type": "RABBIT"
+		},
+		{
+			"id": 24,
+			"title": "Ведмедик Бурмилко",
+			"price": {
+				"initialPrice": 600,
+				"discount": 30,
+				"priceWithDiscount": 450
+			},
+			"description": "Дуже милий мішка",
+			"quantity": 3,
+			"labels": [
+				"SALE"
+			],
+			"mainImage": {
+				"source": "https://s10.gifyu.com/images/1640703207095-01_result.jpg",
+				"mainImage": true
+			},
+			"images": [
+				"https://s10.gifyu.com/images/1644824407042-01_result.jpg",
+				"https://s10.gifyu.com/images/1640703207095-01_result.jpg",
+				"https://s10.gifyu.com/images/1638864781682-01_result.jpg",
+				"https://s10.gifyu.com/images/1636713125144-01_result.jpg",
+				"https://s10.gifyu.com/images/1632734295291-01-01_result.jpg",
+				"https://s10.gifyu.com/images/1632734409096-01_result.jpg",
+				"https://s10.gifyu.com/images/1633068350516-01_result.jpg"
+			],
+			"height": 20,
+			"type": "BEAR"
+		},
+		{
+			"id": 25,
+			"title": "Зайка Персик",
+			"price": {
+				"initialPrice": 500.0
+			},
+			"description": "Дуже ніжні вушка",
+			"quantity": 3,
+			"labels": [],
+			"mainImage": {
+				"source": "https://s10.gifyu.com/images/1637603619647-01_result.jpg",
+				"mainImage": true
+			},
+			"images": [
+				"https://s10.gifyu.com/images/1644341430361-01_result.jpg",
+				"https://s10.gifyu.com/images/1643469106497-01_result.jpg",
+				"https://s10.gifyu.com/images/1640257619214-01_result.jpg",
+				"https://s10.gifyu.com/images/1638344265470-01_result.jpg",
+				"https://s10.gifyu.com/images/1637651168568-01_result.jpg",
+				"https://s10.gifyu.com/images/1637603619647-01_result.jpg",
+				"https://s10.gifyu.com/images/1636620904276-01_result.jpg",
+				"https://s8.gifyu.com/images/photo_2021-12-01_13-06-40.jpg"
+			],
+			"height": 19.5,
+			"type": "RABBIT"
+		},
+		{
+			"id": 26,
+			"title": "Ведмедик Пухляш",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Полярний мішка",
+			"quantity": 3,
+			"labels": [
+				"SALE",
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s10.gifyu.com/images/1643711136334-01_result.jpg",
+				"mainImage": true
+			},
+			"images": [
+				"https://s10.gifyu.com/images/1643711136334-01_result.jpg",
+				"https://s10.gifyu.com/images/1639987442610-01_result.jpg",
+				"https://s10.gifyu.com/images/1639304863739-01_result.jpg"
+			],
+			"height": 19.5,
+			"type": "BEAR"
+		},
+		{
+			"id": 27,
+			"title": "Єдиноріжка Луна",
+			"price": {
+				"initialPrice": 650,
+				"discount": 30,
+				"priceWithDiscount": 455
+			},
+			"description": "Дуууже класна гривка",
+			"quantity": 4,
+			"labels": [
+				"SALE"
+			],
+			"mainImage": {
+				"source": "https://s8.gifyu.com/images/photo_2021-12-01_13-06-58.jpg",
+				"mainImage": true
+			},
+			"images": [
+				"https://s10.gifyu.com/images/1644134058701-01_result.jpg",
+				"https://s10.gifyu.com/images/1638949328488-01_result.jpg",
+				"https://s10.gifyu.com/images/1636881546383-01_result.jpg",
+				"https://s8.gifyu.com/images/photo_2021-12-01_13-07-05.jpg",
+				"https://s8.gifyu.com/images/photo_2021-12-01_13-06-58.jpg",
+				"https://s10.gifyu.com/images/2-1e33b0b1074d68a2a.jpg",
+				"https://s10.gifyu.com/images/2-31795b47c33b03609.jpg",
+				"https://s10.gifyu.com/images/2-4.jpg",
+				"https://s10.gifyu.com/images/2-2716dee0f31ea906d.jpg"
+			],
+			"height": 19.5,
+			"type": "UNICORN"
+		},
+		{
+			"id": 28,
+			"title": "Великий заєць",
+			"price": {
+				"initialPrice": 800
+			},
+			"description": "Великий зайка",
+			"quantity": 1,
+			"labels": [
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s10.gifyu.com/images/1643307345907-01_result.jpg",
+				"mainImage": true
+			},
+			"images": [
+				"https://s10.gifyu.com/images/1643307345907-01_result.jpg",
+				"https://s10.gifyu.com/images/1640675576572-01_result.jpg",
+				"https://s10.gifyu.com/images/1636012811854-01_result.jpg"
+			],
+			"height": 32,
+			"type": "RABBIT"
+		},
+		{
+			"id": 29,
+			"title": "Ведмедик Бурмилко",
+			"price": {
+				"initialPrice": 600,
+				"discount": 30,
+				"priceWithDiscount": 450
+			},
+			"description": "Дуже милий мішка",
+			"quantity": 3,
+			"labels": [
+				"SALE"
+			],
+			"mainImage": {
+				"source": "https://s10.gifyu.com/images/1640703207095-01_result.jpg",
+				"mainImage": true
+			},
+			"images": [
+				"https://s10.gifyu.com/images/1644824407042-01_result.jpg",
+				"https://s10.gifyu.com/images/1640703207095-01_result.jpg",
+				"https://s10.gifyu.com/images/1638864781682-01_result.jpg",
+				"https://s10.gifyu.com/images/1636713125144-01_result.jpg",
+				"https://s10.gifyu.com/images/1632734295291-01-01_result.jpg",
+				"https://s10.gifyu.com/images/1632734409096-01_result.jpg",
+				"https://s10.gifyu.com/images/1633068350516-01_result.jpg"
+			],
+			"height": 20,
+			"type": "BEAR"
+		},
+		{
+			"id": 30,
+			"title": "Зайка Персик",
+			"price": {
+				"initialPrice": 500.0
+			},
+			"description": "Дуже ніжні вушка",
+			"quantity": 3,
+			"labels": [],
+			"mainImage": {
+				"source": "https://s10.gifyu.com/images/1637603619647-01_result.jpg",
+				"mainImage": true
+			},
+			"images": [
+				"https://s10.gifyu.com/images/1644341430361-01_result.jpg",
+				"https://s10.gifyu.com/images/1643469106497-01_result.jpg",
+				"https://s10.gifyu.com/images/1640257619214-01_result.jpg",
+				"https://s10.gifyu.com/images/1638344265470-01_result.jpg",
+				"https://s10.gifyu.com/images/1637651168568-01_result.jpg",
+				"https://s10.gifyu.com/images/1637603619647-01_result.jpg",
+				"https://s10.gifyu.com/images/1636620904276-01_result.jpg",
+				"https://s8.gifyu.com/images/photo_2021-12-01_13-06-40.jpg"
+			],
+			"height": 19.5,
+			"type": "RABBIT"
+		},
+		{
+			"id": 31,
+			"title": "Ведмедик Пухляш",
+			"price": {
+				"initialPrice": 500.0,
+				"discount": 38.3,
+				"priceWithDiscount": 308.5
+			},
+			"description": "Полярний мішка",
+			"quantity": 3,
+			"labels": [
+				"SALE",
+				"NEW"
+			],
+			"mainImage": {
+				"source": "https://s10.gifyu.com/images/1643711136334-01_result.jpg",
+				"mainImage": true
+			},
+			"images": [
+				"https://s10.gifyu.com/images/1643711136334-01_result.jpg",
+				"https://s10.gifyu.com/images/1639987442610-01_result.jpg",
+				"https://s10.gifyu.com/images/1639304863739-01_result.jpg"
+			],
+			"height": 19.5,
+			"type": "BEAR"
 		}
 	]
 }
